@@ -84,7 +84,6 @@ Promopage and checkout
    | objectId      | String   | unique id for the each drink |
    | description       | String| about drink |
    | image         | File     | image of drink|
-   |     | String   | image caption by author |
    | rating | Number   | rating of each drink |
    | ratingdisplay    | Number   | sum of ratings |
    
