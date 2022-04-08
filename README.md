@@ -54,7 +54,7 @@ Try audio type for product description
 
 ### 3. Navigation
 
-<!-- **Tab Navigation** (Tab to Screen)
+**Tab Navigation** 
 
 Search
 Profile
@@ -72,7 +72,7 @@ Promopage and checkout
 <img src="bodaapp.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-
+<img src="bobaapp.gif" width=600>
 ### [BONUS] Interactive Prototype
 
 
