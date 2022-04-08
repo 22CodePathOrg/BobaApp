@@ -18,7 +18,7 @@ Going to keep two login profiles one for Quiz creator and one for quiz player. G
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Knowledge (Quiz)
+- **Category:** Checkout and Rating (Sell)
 - **Mobile:** Using Camera, Audio and user profiles are saved.
 - **Story:** I think rating the drinks will be interesting and will attract users
 - **Market:** As I said earlier we can create different types of drink ratings and attract customers
@@ -36,7 +36,7 @@ User can: Rate a drink selected
 User get to see a dashboard with trending today items.
 Maintain the user ratings for drinks.
 User data should be persisted in Parse.
-adding filters for cheap, favourite and top rated for drinks.
+Adding filters for cheap, favourite and top rated for drinks.
 Logout securely and maintain user profile
 
 **Optional Nice-to-have Stories**
@@ -46,31 +46,27 @@ Try audio type for product description
 
 
 ### 2. Screen Archetypes
-
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login
+* Signup
+* Homepage
+* Promo Page
+* Search Page
 
 ### 3. Navigation
 
 <!-- **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+Search
+Profile
+Home
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
- -->
+Log-in -> Account creation if no log in is available
+Drink Selection -> Jumps to promo page
+Search drink
+Promopage and checkout
+
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="bodaapp.png" width=600>
@@ -78,12 +74,31 @@ Try audio type for product description
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
+<img src="bobaapp.gif" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
+## Model
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the each drink |
+   | description       | String| about drink |
+   | image         | File     | image of drink|
+   |     | String   | image caption by author |
+   | rating | Number   | rating of each drink |
+   | ratingdisplay    | Number   | sum of ratings |
+   
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+    - Home Feed Screen
+      - (Read/GET) Query all drinks where user is logged in
+      - (Create/POST) Create a new rating on a drink
+      - (Create/POST) Create the drinks selected list
+   - Search Screen
+      - (Read/GET) Query all top rated drinks that has rating greater than 4 
+   - Promo Screen
+      - (Read/GET) Query all selected drinks
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
