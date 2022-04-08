@@ -72,7 +72,7 @@ Promopage and checkout
 <img src="bodaapp.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="bobaapp.gif" width=600>
+<img src="bobaappgif.gif" width=600>
 ### [BONUS] Interactive Prototype
 
 
