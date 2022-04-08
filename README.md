@@ -74,7 +74,7 @@ Promopage and checkout
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
-<img src="bobaapp.gif" width=600>
+
 
 ## Schema 
 ## Model
