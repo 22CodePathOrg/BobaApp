@@ -77,7 +77,7 @@ Promopage and checkout
 
 ### App gif
 
-<img src="bodaappgif1.gif" width=600>
+<img src="bobaappgif1.gif" width=600>
 
 ## Schema 
 ## Model
