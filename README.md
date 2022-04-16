@@ -96,7 +96,7 @@ Promopage and checkout
    - Search Screen
       - (Read/GET) Query all top rated drinks that has rating greater than 4 
    - Promo Screen
-      - (Read/GET) Query all selected drinks
+      - (Read/GET) Query all selected drinkss
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
