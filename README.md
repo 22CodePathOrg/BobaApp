@@ -31,11 +31,11 @@ Going to keep two login profiles one for Quiz creator and one for quiz player. G
 
 **Required Must-have Stories**
 
--[ ] User login page and login api.
--[ ] User can rate a drink selected
--[ ] User get to see a dashboard with trending today items.
--[ ] Maintain the user ratings for drinks.
--[ ] User data should be persisted in Parse.
+-[*] User login page and login api.
+-[*] User can rate a drink selected
+-[*] User get to see a dashboard with trending today items.
+-[*] Maintain the user ratings for drinks.
+-[*] User data should be persisted in Parse.
 -[ ] Adding filters for cheap, favourite and top rated for drinks.
 -[ ] Logout securely and maintain user profile
 
