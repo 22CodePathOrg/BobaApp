@@ -29,7 +29,7 @@ Going to keep two login profiles one for Quiz creator and one for quiz player. G
 
 ### 1. User Stories (Required and Optional)
 
-**Required Must-have Stories**
+Required Must-have Stories
 
 -[*]* User login page and login api.
 -[*]* User can rate a drink selected
