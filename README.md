@@ -77,9 +77,13 @@ Promopage and checkout
 
 ### App gif
 
-<img src="gifsimpledemo.gif" width=600>
 
 
+<img src="gifsimpledo.gif" width=600>
+
+
+
+Have to join login and tea dashboard as we did them seperately by 2 people
 
 <img src="bobaappgif1.gif" width=600>
 
