@@ -35,11 +35,11 @@ Required Must-have Stories
 - [*] Show ratings for drinks.
 - [*] Settings for the app
 - [*] Selection of drink in a recycler view to show the details
-- [*] Hide the details from settings
+- [*] Hide the details from Dashboard
 - [*] Descriptions for the selected view along with ratings
 
 **Optional Nice-to-have Stories**
-- [ ] Adding filters for cheap, favourite and top rated for drinks.
+- [] Adding filters for cheap, favourite and top rated for drinks.
 - [] Login by Facebook
 - [] Try audio type for product description
 
