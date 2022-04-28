@@ -31,17 +31,14 @@ Going to keep two login profiles one for Quiz creator and one for quiz player. G
 
 Required Must-have Stories
 
-- [*]* User login page and login api.
-- [*] User can rate a drink selected
-- [*]User get to see a dashboard with trending today items.
-- [] Maintain the user ratings for drinks.
-- [*] User data should be persisted in Parse.
-- [ ] Adding filters for cheap, favourite and top rated for drinks.
-- [*] Logout securely and maintain user profile
+- [*] Dashboard with trending today items from api.
+- [*] Maintain the user ratings for drinks.
+- [*] Settings for the app
+- [*] Selection of drink in a recycler view to show the details
 
 **Optional Nice-to-have Stories**
+- [ ] Adding filters for cheap, favourite and top rated for drinks.
 - [] Login by Facebook
-- [] Profile photo of user
 - [] Try audio type for product description
 
 
