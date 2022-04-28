@@ -32,7 +32,7 @@ Going to keep two login profiles one for Quiz creator and one for quiz player. G
 Required Must-have Stories
 
 - [*] Dashboard with trending today items from api.
-- [*] Maintain the user ratings for drinks.
+- [*] Show ratings for drinks.
 - [*] Settings for the app
 - [*] Selection of drink in a recycler view to show the details
 - [*] Hide the details from settings
