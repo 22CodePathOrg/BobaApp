@@ -35,6 +35,8 @@ Required Must-have Stories
 - [*] Maintain the user ratings for drinks.
 - [*] Settings for the app
 - [*] Selection of drink in a recycler view to show the details
+- [*] Hide the details from settings
+- [*] Descriptions for the selected view along with ratings
 
 **Optional Nice-to-have Stories**
 - [ ] Adding filters for cheap, favourite and top rated for drinks.
@@ -59,26 +61,15 @@ Home
 
 **Flow Navigation** (Screen to Screen)
 
-Log-in -> Account creation if no log in is available
+Dashboard -> Gets all the drinks
 Drink Selection -> Jumps to promo page
 Search drink
 Promopage and checkout
 
-## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="bodaapp.png" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
-<img src="bobaappgif.gif" width=600>
 ### [BONUS] Interactive Prototype
 
 ### App gif
-
-
-
-<img src="gifsimpledo.gif" width=600>
-
-
 
 Have to join login and tea dashboard as we did them seperately by 2 people
 
