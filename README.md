@@ -71,8 +71,6 @@ Promopage and checkout
 
 ### App gif
 
-Have to join login and tea dashboard as we did them seperately by 2 people
-
 <img src="gifsimpledo.gif" width=600>
 
 ## Schema 
